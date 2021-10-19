@@ -1,44 +1,50 @@
+#multiplication using lambda
+
+y= (lambda a,b:a*b)(4,2)
+print(y)
+
+#function to find  cube  of a number
+x=(lambda a:a*a*a)(2)
+print(x)
+
+#add 2 list
+x=[90,80,70,60,50]
+y=[50,60,70,80,90]
+z=list(map(lambda a,b:a+b,x,y))
+print(z)
+
+#use of lamda function
+
+list_1 = [1,2,3,4,5]
+
+filter( lambda x: x%2==0 , list_1 )
+print( list( filter( lambda x: x%2==0 , list_1 )))
+
+# Use with map()
+
+list1 = [1, 3, 5, 7, 9]
+list2 = list(map(lambda x: x * 2 , list1))
+print(list2)
+
+# Use with reduce
+
 from functools import reduce
-list1=[2,3,4,5,6]
-list2=[4,5,6,7,8]
-print(list(map (lambda x,y:x+y,list1,list2)))
+li = [1, 2, 3, 4, 5, 6]
+sum = reduce((lambda x, y: x + y), li)
+print (sum)
 
-list2=[4,5,6,7,8,6]
-print(list(map (lambda x,y:x+y,list1,list2)))
+#print table of 5 using lambda functions
+            
+table=[lambda j=x:6*j for x in range(1,11)]
 
-l=['12345','veli','avni']
-print(list(map(list,l)))
+#print(table)
 
-sq=lambda y:y**2
-sq(3)
-
-sq(30)
-
-table=[lambda x=x: x*2 for x in range(1,11)]
 for i in table:
-	print(i())
+    print(i())
 
-list(table)
+#find smallest number
 
-sum=reduce(lambda x,y:x+y,list1)
-print( sum)
+Min = lambda a,b: y if (a > b) else a
+print("Minimum number is - ",Min(10,33))    
 
-max=reduce (lambda x,y: x if x>y else y,list1)
-print(max)
-print("veli".upper())
 
-def func1(x):
-  return x+5
-
-print(func1(5))
-
-print(list(map(lambda x:pow(x,3), list1)))
-
-str1= ['dog', 'cat']
-print(list(map(lambda x: x.upper(), str1)))
-
-age=[5,6,7,8,9,10,11]
-print(list(filter(lambda x: x<10, age)))
-
-mylist = map(lambda x : x*2, [x for x in range(1,11)])
-print(list(mylist))
