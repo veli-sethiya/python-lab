@@ -33,7 +33,7 @@ li = [1, 2, 3, 4, 5, 6]
 sum = reduce((lambda x, y: x + y), li)
 print (sum)
 
-#print table of 5 using lambda functions
+#print table of 6 using lambda functions
             
 table=[lambda j=x:6*j for x in range(1,11)]
 
