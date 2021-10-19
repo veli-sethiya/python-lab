@@ -6,7 +6,7 @@ print(list(map (lambda x,y:x+y,list1,list2)))
 list2=[4,5,6,7,8,6]
 print(list(map (lambda x,y:x+y,list1,list2)))
 
-l=['12345','amit','sumt']
+l=['12345','veli','avni']
 print(list(map(list,l)))
 
 sq=lambda y:y**2
