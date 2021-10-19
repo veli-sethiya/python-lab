@@ -14,7 +14,7 @@ print("y is ,y")
 
 #Format command
 
-print("{} is a good option for travelling in India".format("Books"))
+print("{} is a good option for travelling in India".format("Udaipur"))
 
 #use of multiple format commands
 
