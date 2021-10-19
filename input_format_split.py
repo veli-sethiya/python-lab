@@ -14,12 +14,12 @@ print("y is ,y")
 
 #Format command
 
-print("{} are good option for beginners in python".format("Books"))
+print("{} is a good option for travelling in India".format("Books"))
 
 #use of multiple format commands
 
-my_string = "{} are the good option for beginners in {}"
-print(my_string.format("Books","python"))
+my_string = "{} is a good option for travelling in {}"
+print(my_string.format("Udaipur","India"))
 
 #split commands
 
