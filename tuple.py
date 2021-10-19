@@ -2,9 +2,9 @@ my_tuple=()
 print(my_tuple)
 thistuple=(1,2,3,4,5)
 print(thistuple)
-thistuple=(1,2,3),"Amit",(5,6,7)
+thistuple=(1,2,3),"veli",(5,6,7)
 print(thistuple)
-thistuple=(1,2,3),"Amit",(5,6,7),[5,9,8]
+thistuple=(1,2,3),"veli",(5,6,7),[5,9,8]
 print(thistuple[0])
 print(thistuple[3])
 print(thistuple)
