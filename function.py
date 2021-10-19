@@ -3,7 +3,7 @@ def area (a,b,c):
     s=(a+b+c)/2
     ar=math.sqrt(s*(s-a)*(s-b)*s-c)
     print("area triangle=",ar)
-area(2,3,4)
+area(4,3,2)
 
 
 def li_as_arg(li):
@@ -22,7 +22,7 @@ def fact(n): #recursion function
 n=5
 print("factorial of {0} is {1}".format(n,fact(n)))
 
-x = "awesome" # here x is global variable
+x = "good" # here x is global variable
 def myfunc():
   x = "fantastic" # here x is local variable
   print("x with value {0} is local here ".format(x))
@@ -30,10 +30,10 @@ def myfunc():
 myfunc()
 print("x with value {0} is global ".format(x))
 
-x = "amit" # here x is global variable
+x = "veli" # here x is global variable
 def myfunc():
     global x   #making x global
-    x = "Amit Patel" # here x is local variable
+    x = "Veli Sethiya" # here x is local variable
     print("x with value {0} is also accessing global variable here ".format(x))
 
 myfunc()
