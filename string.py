@@ -23,13 +23,13 @@ print(b)
 print(a&b)
 print(a|b)
 print(a|a)
-print ("Amit")
+print ("veli")
 str1 = "this is my string"
 print(str1)
 str2 = '''This
  is my string'''
 print(str2)
-my_string= "My name is Amit"
+my_string= "My name is veli"
 print(my_string[0])
 print(len(my_string))
 print(my_string[1:-5])
