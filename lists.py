@@ -35,11 +35,11 @@ Traceback (most recent call last):
 TypeError: can only concatenate list (not "tuple") to list
 >>> list1 + [1,2,3]
 [1, 'hello', 'r', 4, [1, 4], 4, 1, 2, 3, 1, 2, 3]
->>> print(["amit"]*3)
-['amit', 'amit', 'amit']
->>> list1.insert(3,"amit patel")
+>>> print(["veli"]*3)
+['veli', 'veli', 'veli']
+>>> list1.insert(3,"veli sethiya")
 >>> list1
-[1, 'hello', 'r', 'amit patel', 4, [1, 4], 4, 1, 2, 3]
+[1, 'hello', 'r', 'veli sethiya', 4, [1, 4], 4, 1, 2, 3]
 >>> list
 [1, 2, 3]
 >>> list=[1,3,4]
@@ -62,4 +62,3 @@ TypeError: can only concatenate list (not "tuple") to list
 >>> list=[11,3,4,2,5,6,4,5]
 >>> list.count(4)
 2
->>> 
