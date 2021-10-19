@@ -1,14 +1,26 @@
-x=int(input("enter price : ")) # this is input command
-print("x is ",x)  #this is simple output command
+#Input command(Name as input)
 
-print("The price is {} dollars".format(x)) # this is format command
+Name = input("Enter name- ")
+print("Name - " + Name)
 
-print("The price is {:.2f} dollars in two places of decimal".format(x))
+#Input command(Input a number)
 
-y=x*70
-print("The price is {0} dollars or {1} rupee".format(x,y))# format with indexing
+num = int(input("Enter a value: "))
+print("Number + 10 is - ", num+10)
 
-string = "welcome-to-the jungle" #split function
-print(string.split("-")) #having "-" than split
+#Output command
 
-print(string.split("-",1)) # split in two elements
+print("y is ,y")
+
+#Format command
+
+print("{} are good option for beginners in python".format("Books"))
+
+#use of multiple format commands
+
+my_string = "{} are the good option for beginners in {}"
+print(my_string.format("Books","python"))
+
+#split commands
+
+print("Split name with space ",Name.split())
