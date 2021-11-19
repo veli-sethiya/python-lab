@@ -19,8 +19,8 @@ str2=str2.replace(str2[0:1],x)
 print("Your first string has become :- ",str1)
 print("Your second string has become :- ",str2)
 Please Enter First String : veli
-Please Enter Second String : nema
-Your first string has become :-  nema
+Please Enter Second String : sethiya
+Your first string has become :-  sethiya
 Your second string has become :-  veli
   
   
